@@ -3,14 +3,14 @@
   "name": "YouTube Music URL Player",
   "codeowners": [],
   "config_flow": true,
-  "documentation": "https://github.com/",
+  "documentation": "https://github.com/zaiming5429-cell/HA-YTMusic-URL-Player",
   "integration_type": "service",
   "iot_class": "cloud_polling",
   "requirements": [
-    "ytmusicapi==1.9.1",
-    "pytubefix>=10.3.0",
+    "ytmusicapi>=1.21.0",
+    "pytubefix @ git+https://github.com/JuanBindez/pytubefix.git",
     "yt-dlp>=2024.1.0",
     "pychromecast>=14.0.0"
   ],
-  "version": "1.8.4"
+  "version": "1.8.5-ssoper"
 }
